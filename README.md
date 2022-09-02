@@ -18,7 +18,7 @@ docker build -t app2 .
 docker run --name app2 -dp 5002:5000 app2
 ```
 
-### Nginx Proxy
+#### Nginx Proxy
 
 ```bash
  docker run --name nginx -dp 8082:80 load_balancer_nginx
