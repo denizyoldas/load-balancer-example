@@ -4,14 +4,14 @@ This is a simple example of how to use the nginx-proxy
 
 ## Usage
 
-### App 1
+#### App 1
 
 ```bash
 docker build -t app1 .
 docker run --name app1 -dp 5001:5000 app1
 ```
 
-### App 2
+#### App 2
 
 ```bash
 docker build -t app2 .
